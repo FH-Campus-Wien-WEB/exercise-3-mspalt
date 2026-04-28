@@ -81,4 +81,9 @@ xhr.onload = function() {
   } 
 }
 
-xhr.send()
+xhr.send();
+
+document.getElementById("save-button").addEventListener("click", putMovie);
+document.getElementById("cancel-button").addEventListener("click", () => {
+  location.href = "index.html";
+});
