@@ -22,14 +22,8 @@ nav button {
   width: 100%;
 }
 
-/* Remove unnecessary space and bullets from the lists */
-ul {
-  padding: 0px;
-  margin: 16px;
-  list-style-type: none;
-}
 
-/* Task 2.1. Lay out the childs of the 'body' using Grid Template Areas. */
+/*Lay out the childs of the 'body' using Grid Template Areas. */
 body {
   margin: 0;
   display: grid;
@@ -70,7 +64,7 @@ footer {
   }
 }
 
-/* Task 3.1. Make the header element a flex container and center its children
+/* Make the header element a flex container and center its children
    vertically and horizontally.
  */
 header {
@@ -78,10 +72,10 @@ header {
   justify-content: center;
   align-items: center;
   background-color: darkred;
-  padding: 10px 0;
+  padding: 10px 0
 }
 
-/* Task 3.2. Make the list items of the unordered list in the nav element a flex container, 
+/* Make the list items of the unordered list in the nav element a flex container, 
    use column direction and center the child items
  */
 nav li {
@@ -90,7 +84,7 @@ nav li {
   align-items: center;
   justify-content: center;
 }
-/* Task 3.3. Make the main element a Flexbox container */
+/*Make the main element a Flexbox container */
 main {
   display: flex;
   flex-wrap: wrap;
@@ -99,7 +93,7 @@ main {
   gap: 20px;
 }
 
-/* Task 3.4. Make the footer's ul a Flexbox container */
+/*Make the footer's ul a Flexbox container */
 footer ul {
   display: flex;
   justify-content: center;
@@ -107,7 +101,7 @@ footer ul {
   gap: 15px;
 }
 
-/* From here on styling from exercise 1 */
+/*styling from exercise 1 */
 img {
   border-radius: 12px;
 }
